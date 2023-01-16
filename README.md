@@ -4,11 +4,17 @@ This repository is code for "Intention-aware User Modeling for Personalized News
 ## Requirement
 
 python~=3.8
+
 torc==1.9.0
+
 torchtext==0.10.0
+
 torch-scatter==2.0.9
+
 nltk==3.7
+
 scikit-learn==1.0.2
+
 
 ## Dataset
 
