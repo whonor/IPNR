@@ -53,8 +53,7 @@ Assume that now the pwd is `./IPNR`, the downloaded and extracted MIND dataset s
 
 Then run prepare_MIND-dataset.py to preprocess the data.
 
-<br/><br/>
-
+<br/>
 
 ## Run
 
