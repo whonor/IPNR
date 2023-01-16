@@ -3,25 +3,25 @@ This repository contains the code for "Intention-aware User Modeling for Persona
 
 ## Requirement
 
-python~=3.8
+- python~=3.8
 
-torch==1.9.0
+- torch==1.9.0
 
-torchtext==0.10.0
+- torchtext==0.10.0
 
-torch-scatter==2.0.9
+- torch-scatter==2.0.9
 
-torch-geometric==2.0.4
+- torch-geometric==2.0.4
 
-torch-sparse=0.6.12
+- torch-sparse=0.6.12
 
-nltk==3.7
+- nltk==3.7
 
-scikit-learn==1.0.2
+- scikit-learn==1.0.2
 
-pandas==1.4.3
+- pandas==1.4.3
 
-numpy==1.23.0
+- numpy==1.23.0
 
 
 
@@ -57,7 +57,7 @@ Then run prepare_MIND-dataset.py to preprocess the data.
 
 
 ## Run
-<hr>Our Model
+
 <pre><code>python main.py --news_encoder=IPNR --user_encoder=IPNR</code></pre>
 
 
