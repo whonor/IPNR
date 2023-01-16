@@ -11,18 +11,22 @@ torchtext==0.10.0
 
 torch-scatter==2.0.9
 
-torch-geometric==1.6.1
+torch-geometric==2.0.4
+
+torch-sparse=0.6.12
 
 nltk==3.7
 
 scikit-learn==1.0.2
 
+pandas==1.4.3
+
+numpy==1.23.0
+
 
 
 ## Dataset Preparation
-The experiments are conducted on the 200k-MIND dataset. Our code will try to download and sample the 200k-MIND dataset to the directory `../MIND-200k` (see Line 140 of `config.py` and `prepare_MIND_dataset.py`).
-
-Since the MIND dataset is quite large, if our code cannot download it successfully due to unstable network connection, please execute the shell file `download_extract_MIND.sh` instead. If the automatic download still fails, we recommend to download the MIND dataset and knowledge graph manually according to the links in `download_extract_MIND.sh`.
+The experiments are conducted on the MIND dataset. Our code will try to download and sample the MIND dataset to the directory `../MIND`.
 
 Assume that now the pwd is `./IPNR`, the downloaded and extracted MIND dataset should be organized as
 
@@ -48,25 +52,14 @@ Assume that now the pwd is `./IPNR`, the downloaded and extracted MIND dataset s
 <br/>
 
 Then run prepare_MIND-dataset.py to preprocess the data.
-## Environment Requirements
-    (terminal) $ pip install -r requirements.txt
-
 
 <br/><br/>
 
 
-## Experiment Running
+## Run
 <hr>Our Model
 <pre><code>python main.py --news_encoder=IPNR --user_encoder=IPNR</code></pre>
 
-## Run
-
-```bash
-# Train the model, meanwhile save checkpoints
-python3 src/train1.py
-# Load latest checkpoint and evaluate on the test set
-python3 src/evaluate.py
-```
 
 ### Credits
 
