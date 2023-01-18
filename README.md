@@ -1,9 +1,8 @@
 # IPNR
 This repository contains the code for "Intention-aware User Modeling for Personalized News Recommendation".
 
-- Abstract: 
-Although tremendous efforts have been made in the field of personalized news recommendations, how to accurately model users’ reading preferences to recommend satisfied news remains a critical challenge. In fact, users’ reading preferences are often driven by his/her high-level goal-oriented intentions. For example, in order to satisfy the intention of traveling, a user may prefer to read news about national parks or hiking activities. However, existing methods for news recommendations
-often focus on capturing users’ low-level preferences towards specific news only, neglecting to model their intrinsic reading intentions, leading to insufficient modeling of users and thus suboptimal recommendation performance. To address this problem, in this paper, we propose a novel intention-aware personalized news recommendation model (IPNR), to accurately model both a user’s reading intentions and his/her preference for personalized next-news recommendations. In addition to modeling users’ reading preferences, our proposed model IPNR can also capture users’ reading intentions and the transitions over intentions for better predicting the next piece of news which may interest the user. Extensive experimental results on real-world datasets demonstrate that IPNR outperforms the state-of-the-art news recommendation methods in terms of recommendation accuracy.
+## Introduction 
+In this paper, "Intention-aware User Modeling for Personalized News Recommendation", we devise a novel news recommendation model to accurately capture users' reading preferences and intentions.
 
 ## Requirement
 
